@@ -1,0 +1,85 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+header {
+    text-align: center;
+}
+header > img {
+    width: 100%;
+    height: 200px;
+}
+
+nav {
+    background-color: rgb(196, 246, 255);
+    font-size: 20px;
+}
+
+nav > a{
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav a:hover {
+    color: #13dabf;
+}
+
+.headshot {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+
+.mypic {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+/* page content styling */
+.pagecontent {
+    width: 70%;
+    margin: auto;
+}
+
+.pagecontent > article >p {
+    color: brown;
+    text-align: justify;
+}
+
+.contact {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: rgba(100, 243, 248, 0.342);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
